@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #0f172a, #020617);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 15px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 18px;
+}
+
+/* ✅ FIXED CHART SIZE */
+.chart-container {
+    width: 60%;
+    max-width: 600px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+#transactions {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 12px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+.alert {
+    font-weight: bold;
+}
+
+.alert-large {
+    color: red;
+}
+
+.alert-suspicious {
+    color: orange;
+}
